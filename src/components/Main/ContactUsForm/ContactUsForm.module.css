@@ -1,0 +1,56 @@
+.contactMap {
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+.formIntro {
+  color: var(--gray-color);
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 60px;
+}
+
+.formContainer {
+  display: flex;
+  box-shadow: 0px 12px 20px rgba(138, 138, 138, 0.15);
+  border-radius: 10px;
+}
+
+.mapLocation {
+  flex-basis: 60%;
+}
+
+.mapLocation img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.formBlock {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 35px 50px;
+}
+
+.formBlock h2 {
+  color: var(--dark-gray-color);
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.policyLink {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.policyLink a {
+  color: var(--gray-color);
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 12px;
+}

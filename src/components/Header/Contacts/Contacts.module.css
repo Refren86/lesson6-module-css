@@ -1,0 +1,74 @@
+.contacts {
+  background-color: var(--dark-blue-color);
+  padding: 7px 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+.contactsBlocks {
+  display: flex;
+  column-gap: 30px;
+}
+
+.contactsItem {
+  display: flex;
+  column-gap: 12px;
+}
+
+.contactsIcon {
+  width: 14px;
+  height: 14px;
+}
+
+.whatsUpIcon {
+  width: 16px;
+  height: 16px;
+}
+
+.contactsIcon img {
+  width: 100%;
+  height: 100%;
+}
+
+.contactsDetails {
+  color: var(--white-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.05em;
+}
+
+.language {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.like {
+  height: 20px;
+}
+
+.like::after {
+  content: "24";
+  padding: 2px;
+  color: var(--white-color);
+  font-size: 11px;
+  background-color: var(--light-blue-color);
+  border-radius: 50%;
+  line-height: 13px;
+  letter-spacing: 0.05em;
+  position: relative;
+  bottom: 16px;
+  right: 12px;
+}
+
+.flag {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}

@@ -1,0 +1,48 @@
+.socialsWrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 50px;
+  row-gap: 37px;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.socialsBlock {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.subscribeIntro {
+  display: flex;
+  column-gap: 14px;
+  margin-bottom: 10px;
+}
+
+.subscribeBlock {
+  margin-top: 36px;
+  padding-left: 20px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltipText {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltipText {
+  visibility: visible;
+}

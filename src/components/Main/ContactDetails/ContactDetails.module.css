@@ -1,0 +1,75 @@
+.barrierLine {
+  background-color: var(--blue-color);
+  width: 110px;
+  height: 2px;
+  margin: 50px auto;
+}
+
+.contactsWrapper {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 45px;
+}
+
+.contactsHeading {
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.phoneBlock,
+.officeBlock,
+.emailBlock {
+  text-align: center;
+}
+
+.phoneBlock p,
+.officeBlock p,
+.emailBlock p {
+  color: var(--gray-color);
+}
+
+.officeBlock p {
+  max-width: 380px;
+}
+
+.credentialsBlock {
+  display: flex;
+  column-gap: 15px;
+}
+
+.credentialsIcon {
+  display: flex;
+  align-items: center;
+}
+
+.socialsHeading {
+  margin-bottom: 30px;
+}
+
+.socialsWrapper {
+  text-align: center;
+}
+
+.socialsHeading {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.socialsBlocks {
+  display: flex;
+  justify-content: center;
+  column-gap: 70px;
+}
+
+.socialsBlock {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+}
+
+.socialsBlock p {
+  color: var(--gray-color);
+  font-weight: 400;
+  font-size: 14px;
+}
